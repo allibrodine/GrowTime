@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #f7c400;
+    --secondary-color: #3e3e40;
+    --tertiary-color: #b3da81;
+    --quaternary-color: #f4f4f4;
+    --quinary-color: #84694e; 
+}
+
+.current {
+    justify-content: center;
+}
+
+.weather-info {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 1, 0;
+    width: 100%;
+    color: #f4f4f4;
+    font-size: 50px;
+    font-family: "Rum Raisin", sans-serif;
+}
+
+.logo { 
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: auto;
+}
+
+h1 {
+  font-family: "Rum Raisin", sans-serif;
+  font-size: 35px;
+}
+
+.logo h1 {
+  font-size: 100px;
+  margin-top: 10px;
+  color: var(--primary-color);
+  text-shadow: 3px 3px 3px var(--secondary-color);
+}
+
+header {
+    padding-left: 10px;
+    justify-content: space-between;
+    display: flex;
+    background-color: var(--tertiary-color);
+    margin: auto;
+    padding: auto;
+    height: 150px;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #B3DA81;
+    color: #3e3e40;
+    height: 50px;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+
+
+
+
+.slogan {
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 30px;
+    padding: 40px 5px 2px 5px;
+  }
