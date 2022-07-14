@@ -7,7 +7,14 @@
 }
 
 .current {
+    display: flex;
+    margin: auto;
     justify-content: center;
+    padding: 1, 0;
+    width: 100%;
+    color: #f4f4f4;
+    font-size: 50px;
+    font-family: "Rum Raisin", sans-serif;
 }
 
 .weather-info {
