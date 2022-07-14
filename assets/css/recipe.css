@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+    font-family: "Raleway";
+    box-sizing: border-box;
+}
+  
+
+body{
+    background-color: #B3DA81;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Affects Menu and Logo */
+header {
+    padding-left: 10px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #B3DA81;
+    margin: auto;
+    padding: auto;
+    height: 150px;
+}
+
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #B3DA81;
+    color: #3e3e40;
+    height: 50px;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: inline-block;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #3e3e40;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+
+.menu-button-container {
+  display: flex;
+}
+  
+.menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#menu-toggle:checked ~ .menu li {
+    border: 1px solid #3e3e40 ;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu > li {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5em 0;
+    width: 100%;
+    color: #f4f4f4;
+    background-color: #3e3e40;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.menu > li:not(:last-child) {
+    border-bottom: 1px solid #3e3e40;
+}
+
+
+.logo { 
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: auto;
+}
+
+.slogan {
+
+}
+
+/* Creates a break */
+hr {
+    width: auto;
+    padding: 0;
+    border-color: #3e3e40;
+}
+
+
+.aSection {
+    background-color: #f4f4f4;
+    width: 1000px;
+    border: 5px solid #3e3e40;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.bSection {
+    background-color: #f4f4f4;
+    width: 1000px;
+    border: 5px solid #3e3e40;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cSection {
+    background-color: #f4f4f4;
+    width: 1000px;
+    border: 5px solid #3e3e40;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.sections {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sections__column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin: 0 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.images {
+    justify-content: center;
+}
+
+#journal{
+  background-color: beige;
+  padding: 380px 900px;
+  border-radius: 2.5%;
+
+}
