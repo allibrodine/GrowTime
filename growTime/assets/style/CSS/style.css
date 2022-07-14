@@ -181,6 +181,8 @@ h3 {
   font-size: 3.6rem;
   text-align: left;
   font-family: "Rum raisin";
+  color: var(--primary-color);
+  text-shadow: 2px 2px 2px var(--secondary-color);
 }
 
 h4 {
@@ -227,23 +229,23 @@ p{
     border: 5px solid var(--secondary-color);
     margin: 0 auto;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 ul {
     font-family: "Shadows Into Light", sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
-    text-shadow: 3px 3px 3px var(--primary-color);
+    /*text-shadow: 3px 3px 3px var(--primary-color);*/
     color: var(--secondary-color);
     text-align: center;
     padding: 10px;
     list-style-type: none;
 }
 
-p, h2 {
+li, ul, h2, p {
     font-family: "Shadows Into Light", sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     color: var(--secondary-color);
     text-shadow: none;
