@@ -62,6 +62,7 @@ function delPic(id) {
 function clearIng(id){
     list = document.getElementById(id)
     list.innerHTML = "";
+
 };
 var ingList = [];
 //gets title element
@@ -91,6 +92,8 @@ fetch(`https://edamam-recipe-search.p.rapidapi.com/search?q=${search}`, options)
      var recList = (response.hits);
     for(var l = 0;l<7;l++){
     clearIng(`igList${l}`);
+    clearIng(`pic${l}`);
+    clearIng(`hLabel${l}`);
     
 };
 
