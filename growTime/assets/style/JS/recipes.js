@@ -176,7 +176,7 @@ fetch(`https://edamam-recipe-search.p.rapidapi.com/search?q=${search}`, options)
 
     labelList5 = (response.hits[5].recipe.healthLabels);
     for(var l=0; l< labelList5.length;l++ ){
-        hList5.innerHTML += `<li>${labelList5[l]}</li>`;
+       hList5.innerHTML += `<li>${labelList5[l]}</li>`;
        
     };
     ingList5 = (response.hits[5].recipe.ingredientLines);

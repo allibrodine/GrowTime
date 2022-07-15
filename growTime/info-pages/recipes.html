@@ -1,60 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Basic Page Needs-->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <!-- Mobile Specific Metas-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- FONT-->
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Rum+Raisin&family=Shadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="/assets/style/CSS/style.css" />
-        <title>Grow Time!</title>
+        <link rel="stylesheet" href="assets/css/recipe.css" />
     </head>
 
-    <header>
-        <div class="container_header">
-            <div class="row">
-            <div class="twelve columns">
-                <nav>
-                    <ul>
-                        <li><a href="/info-pages/journal.html">Journal</a></li>    
-                        <li><a href="/info-pages/recipes.html">Recipes</a></li>
-                        <li><a href="/info-pages/weather.html">Weather</a></li>
-                        <li><a href="/info-pages/pests.html">Pests</a></li>
-                        <li><a href="/info-pages/diseases.html">Diseases</a></li>
-                        <li><a href="/info-pages/pollinators.html">Pollinators</a></li>
-                        <li><a href="/info-pages/supplies.html">Supplies</a></li>
-                        <li><a href="/info-pages/resources.html">Resources</a></li>
-                    </ul>
-                </nav>  
-            </div> 
-            </div>
-            <br>
-            <div class="logo">    
-                <div class="twelve.columns">
-                    <a href="/mainindex.html">
-                    <img src="/assets/images/Grow Time.jpg" alt="plant" width="250px" height="200px">
-                    </a>
-                </div> 
-                <h4>A guide to organic vegetable gardening in North Texas</h4>
-            </div>
-        </header>
+   <!--<header> 
+    <section class="top-nav">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li>Journal</li>
+          <li>Calendar</li>
+          <li>Weather</li>
+        </ul>
+    </section>
+    <div class="logo">
+        <img  alt="plant" width="250px" height="150px">
+    </div> 
+    <br>
+    <p class="slogan">A guide to organic vegetable gardening in Texas!</p>
+   </header>-->
+
    <hr>
 <body>
-    <section class="about">
-        <div class="container">
-            <div class="two-thirds column">
-            <input type="search" placeholder="Search...">
+    <main class="sections">
+        <div class="sections__colum">
+
+        <section class="aSection">
+            <input id="search" placeholder="Search">
             <button onclick="render()"></button>  
-            <h3 id="vegName">What’s In Season? </h3>
+            <h1 id="vegName">What’s In Season? </h1>
             
             <h2>Trending Recipes:</h2>
             <div id="pic0">
-
+ 
             </div>
-        
+        <div>
             <h3 id="rec0"> </h3>
             
             <h4>Ingredients-</h4>
@@ -62,15 +48,32 @@
              <ul id="igList0">
                   
              </ul>
+            </p> 
+            <h4>Health Labels</h4>
+            <p>
+                <ul id="hLabel0">
+
+                </ul>
             </p>
+            <p>
+                Check out <a target="_blank">The Full Recipe</a>
+            </p>
+        </div>
             <div id="pic1">
                 
             </div>
             <h3 id="rec1"></h3>
+           
             <h4>Ingredients-</h4>
             <p>
                 <ul id="igList1">
                       
+                </ul>
+            </p>
+            <h4>Health Labels</h4>
+            <p>
+                <ul id="hLabel1">
+
                 </ul>
             </p>
             <div id="pic2">
@@ -83,6 +86,16 @@
                       
                 </ul>
             </p>
+            <h4>Health Labels</h4>
+            <p>
+                <ul id="hLabel2">
+
+                </ul>
+            </p>
+            <p>
+                <
+            </p>
+        
             <div id="pic3">
                 
             </div>
@@ -91,6 +104,12 @@
             <p>
                 <ul id="igList3">
                       
+                </ul>
+            </p>
+            <h4>Health Labels</h4>
+            <p>
+                <ul id="hLabel3">
+
                 </ul>
             </p>
             <div id="pic4">
@@ -103,6 +122,12 @@
                       
                 </ul>
             </p>
+            <h4>Health Labels</h4>
+            <p>
+                <ul id="hLabel4">
+
+                </ul>
+            </p>
             <div id="pic5">
                 
             </div>
@@ -111,6 +136,12 @@
             <p>
                 <ul id="igList5">
                       
+                </ul>
+            </p>
+            <h4>Health Labels</h4>
+            <p>
+                <ul id="hLabel5">
+
                 </ul>
             </p>
             <div id="pic6">
@@ -123,10 +154,22 @@
                       
                 </ul>
             </p>
+            <h4>Health Labels</h4>
+            <p>
+                <ul id="hLabel6">
 
-            </div>      
+                </ul>
+            </p>
+
+          
+            <div class="images">
+                
+            </div>
+            </section>
+
         </div>
-    </section>
+
+    </main>
     <Script src="../assets/style/JS/recipes.js"></Script>
 </body>
 </html>
