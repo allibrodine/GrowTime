@@ -1,4 +1,4 @@
-# GrowTime
+# GrowTime!
 
 ## Purpose
 
@@ -25,4 +25,4 @@ https://allibrodine.github.io/GrowTime/
 Alli Brodine allibrodine81@gmail.com <br>
 Chantal Hodge c.hodge0513@gmail.com <br>
 Alan Meza mezafinance68k@gmail.com  <br>
-Hector Cuadro cuadro.bebo2326@gamil.com <br>
+Hector Cuadro cuadro.bebo2326@gmail.com <br>
